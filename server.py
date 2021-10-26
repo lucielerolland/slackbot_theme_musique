@@ -41,5 +41,5 @@ def make_app(db_path):
 if __name__ == "__main__":
     db_path = '/home/lucie/bot/themes.csv'
     app = make_app(db_path)
-    app.listen(8888)
+    app.listen(8000)
     tornado.ioloop.IOLoop.current().start()
